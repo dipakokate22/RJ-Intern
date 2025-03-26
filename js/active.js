@@ -242,3 +242,50 @@
 		});
 		
 })(jQuery);
+
+
+
+/*====================================
+			Client Section
+		======================================*/ 
+
+		$(document).ready(function(){
+			$(".carousel1").Carousel1({
+				loop: true,
+				margin: 30,
+				nav: false,
+				autoplay: true,
+				autoplayTimeout: 2000,
+				autoplayHoverPause: true,
+				responsive: {
+					0: { items: 1 },
+					600: { items: 3 },
+					1000: { items: 5 }
+				}
+			});
+		});
+
+
+
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 3, /* Show 3 logos at a time */
+			spaceBetween: 30,
+			loop: true,
+			autoplay: {
+				delay: 2000, /* Auto-slide every 2 seconds */
+				disableOnInteraction: false,
+			},
+			// pagination: {
+			// 	el: ".swiper-pagination",
+			// 	clickable: true,
+			// },
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+				768: { slidesPerView: 4 }, /* 4 slides on tablets */
+				1024: { slidesPerView: 5 }, /* 5 slides on large screens */
+			}
+		});
+		

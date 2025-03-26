@@ -258,14 +258,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         position: relative;
         display: block;
         padding: 30px 0;
-        color: #D6C7AE;
+        color: #184A45;
         font-weight: 600;
         font-size: 14px;
         font-family: 'Open Sans';
 }
 .header .nav li.active a,
 .header .nav li:hover a{
-	color:#184A45;
+	color: #D6C7AE;
 }
 .header .nav li a::before {
 	content: "";
@@ -4679,7 +4679,7 @@ background: #184A45;
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
-}
+}   
 .modern-img-feature:before {
     content: "";
     position: absolute;
@@ -4868,6 +4868,7 @@ background: #184A45;
     content: "";
     display: table;
     clear: both;
+    
   }
   
   /* Create four equal columns that floats next to eachother */
@@ -5209,3 +5210,219 @@ border-radius: 6px !important;
     list-style: disc;
     padding-bottom: 5px;
 }
+
+.table-section-space{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* padding-left: 250px; */
+    padding-top: 50px;
+}
+
+.spec-table {
+    /* padding-left: 100px; */
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+}
+.table-section-space h1{
+     /* font-size: 2rem; */
+     margin-bottom: 20px;
+     /* font-size: 24px; */
+     font-weight: bold;
+     margin-bottom: 20px;
+     font-family: 'Exo', sans-serif;
+     font-size: 32px;
+     position: relative;
+     /* display: inline-block; */
+     text-transform: capitalize;
+     color: #2E2751;
+     line-height: initial;
+     line-height: 42px;
+     /* margin-bottom: 10px; */
+     text-align: center;
+     /* padding-left: 350px; */
+     background-color:#184A45;
+     color: #D6C7AE;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+th {
+    background-color:#184A45;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #D6C7AE;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: black; */
+    color: black;
+    padding: 15px;
+}
+
+/* .header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #333;
+    padding: 15px;
+} */
+
+.highlight {
+    /* background-color: #808000; Olive color like in the image */
+    font-weight: bold;
+}
+
+.blue {
+    /* background-color: #007bff; */
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.modern-img-feature2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 3px solid #184A45;
+}   
+/* .modern-img-feature2::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    background: #184A45;
+}
+.modern-img-feature2 img{
+	z-index:400;
+	position:relative;
+}
+.modern-img-feature2 .video-play a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80px;
+	z-index: 333;
+	height: 80px;
+	color: #184A45;
+	font-size: 30px;
+	text-align: center;
+	line-height: 80px;
+	background: #fff;
+	margin: -40px 0 0 -40px;
+	z-index: 2500;
+	border-radius: 100%;
+}
+.modern-img-feature2 .video-play:hover a{
+	background:#184A45;
+	color:#fff;
+}
+.side.overlay:before {
+    width: 80%;
+    background: #184A45;
+    transform: rotate(74deg);
+    left: -403px;
+    z-index: 0;
+    opacity: 1;
+} */
+
+.client-section {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.client-section h1 {
+    /* font-size: 2rem; */
+    margin-bottom: 20px;
+     /* font-size: 24px; */
+     font-weight: bold;
+     margin-bottom: 20px;
+     font-family: 'Exo', sans-serif;
+     font-size: 32px;
+     position: relative;
+     /* display: inline-block; */
+     text-transform: capitalize;
+     color: #2E2751;
+     line-height: initial;
+     line-height: 42px;
+     /* margin-bottom: 10px; */
+     text-align: center;
+ 
+}
+
+.swiper {
+    width: 80%;
+    margin: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 120px; /* Adjust size */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.swiper-slide p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #184A45; /* Navigation button color */
+}
+
+.swiper-pagination-bullet {
+    background: #333; /* Pagination dot color */
+}
+
+/* 
+.hover-effect{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    border: 1px solid #ccc;            
+} */
